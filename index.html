@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Cadastro de Clientes</title>
+        <link rel="icon" type="image/x-icon" href="solis.jpg"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <main>
+        <header>
+            <img src="solis.jpg">
+            <h2 class="text-uppercase">Cadastro de clientes</h2>
+        </header>
+          <div>
+            <form action="https://getform.io/f/116a18d1-879a-4f07-9ff4-4baa3d94641d" method="POST" enctype="multipart/form-data" >
+                <label for="ID">ID: <input id="identid" type="text" required name="identidade" placeholder="   Ex: G0123456-7"></label>
+                <label for="NOME">NOME: <input id="nome" type="text" required name="name" placeholder="  Ex: Maria Jose"></label>
+                <label for="CIDADE">CIDADE: <input id="city" type="text" required name="city" placeholder="   Ex: Porto Alegre"></label>&nbsp
+                <button type="submit" id="sub">Submit</button>
+                <button type="reset"  id="reset">Reset</button>
+            </form>
+        </div>
+       </main>
+    </body>
+</html>
